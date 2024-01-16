@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh ;
+    flex-direction: column;
+    background: linear-gradient(55deg, blue, gold);
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4.8rem;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+    color: rgb(223, 11, 11);
+}
+
+
+
+#principal {
+    background-color: rgb(26, 25, 25);
+    padding: 3.6rem;
+    height: 18rem;
+    width: 22rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 15px black ;
+}
+
+#tempo {
+    font-size: 3rem;
+    color: white;
+    margin: 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+button {
+    padding: 1.1rem;
+    font-size: 1.5rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    margin: 0.6rem;
+    border: none;
+    background-color: red;
+    color: white;
+    transition: 1s;
+    
+
+}
+
+
+
+button:hover {
+    background-color: blue;
+}
